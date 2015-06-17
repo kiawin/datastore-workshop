@@ -13,4 +13,4 @@ getip:
 	docker inspect neo4j | grep IPAddress
 
 shell:
-	docker exec -i -t neo4j shell
+	docker exec -i -t neo4j bash
